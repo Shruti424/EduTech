@@ -1,0 +1,120 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.6;
+    padding:0;
+    margin:0;
+    background-color:#808080;
+
+}
+/*global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    flex-basis:27%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+ header{
+     background:#000000;
+     color:#ffffff;
+     padding-top:30px;
+     min-height:65px;
+     border-bottom:#000000 3px solid;
+ }
+ header a{
+     color:#ffffff;
+     text-decoration:none;
+     text-transform: uppercase;
+     font-size:17px;
+ }
+     
+ header li{
+     float:left;
+     display:inline;
+     padding:0 20px 0 20px;
+ }
+
+ header #branding{
+     float:left;
+ }
+
+ header #branding h1{
+     margin:0;
+ }
+
+ header nav{
+     float:right;
+     margin-top:12px;
+ }
+
+ header .highlight, header .current a{
+     color:#e8491d;
+     font-weight:bold;
+ }
+
+ header a:hover{
+     color:#cccccc;
+     font-weight:bold;
+ }
+
+ /*showcase*/
+#showcase {
+    min-width:500px;
+    min-height: 300px;
+    background-image: url('../image/img/ed.jpg');
+    text-align: center;
+    color: #000000;
+}
+
+#showcase h1{
+    margin-top:400px;
+    font-size:55px;
+    margin-bottom:200px;
+   
+}
+#showcase p{
+    
+    font-size:20px;
+}
+
+#showcase button{
+    height:30px;
+    background:#ff0000;
+}
+
+/*boxes*/
+#boxes {
+    margin-top:20px;
+}
+#boxes .box{
+    float:left;
+    text-align:center;
+    width:300px;
+    height:150px;
+    padding:50px;
+}
+
+#boxes .box img{
+    width:100px;
+    
+}
+
+
+footer{
+   padding:5px;
+   margin-top:10px;
+   color:#ffffff;
+   background-color:#000000;
+   text-align:center;
+}
+
+   
+   
+
+    
+
